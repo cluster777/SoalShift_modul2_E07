@@ -113,11 +113,11 @@ int main() {
 				outfile.close();
 				//printf("woy");
 				sleep(60);
-				outfile.open("test.txt");
-					outfile<<counter;
+				//outfile.open("test.txt");
+					//outfile<<counter;
 				
 				//infile.close();
-				outfile.close();
+				//outfile.close();
 			}
 	    }
 
