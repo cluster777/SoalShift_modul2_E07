@@ -43,7 +43,7 @@ int main(){
   close(STDERR_FILENO);
 	while(1){
 		struct stat attr;
-		stat("/root/Documents/ss2/soal5a.cpp", &attr);
+		stat("/root/Documents/ss2/makan_enak.txt", &attr);
 		//dapet waktu
 		//printf("Last modified time: %s", ctime(&attr.st_atime));
 		
